@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAutumn Travel Company</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        h1,
+        h5 {
+            font-family: 'Times New Roman', Times, serif;
+            color: #84780c;
+        }
+
+        h1 {
+            text-shadow: -4px -4px 4px white;
+        }
+
+        .navbar {
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+
+        .navbar a {
+            color: #b04c14;
+        }
+
+        .body-background {
+            margin-top: 4px;
+            background-image: url("../img/line.png");
+            background-size: contain;
+            background-repeat: repeat-x;
+            height: 12vh;
+            box-shadow: 0 -2px 2px rgb(90, 90, 90)
+        }
+
+        .footer {
+            background: url("../img/corner1.png") top left no-repeat,
+                url("../img/corner2.png") bottom left no-repeat,
+                url("../img/corner3.png") top right no-repeat,
+                url("../img/corner4.png") bottom right no-repeat,
+                url("../img/footer.png") repeat-x;
+
+            background-size: 7%, 7%, 8%, 9%, 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-lg w-50">
+        <div class="row" style="background-color: #b04c14;">
+            <div class="col">
+                <h1 style="letter-spacing: 4px;">AUTUMN TRAVEL COMPANY</h1>
+            </div>
+
+            <div class="navbar navbar-expand-lg bg-light p-0 m-0">
+                <div class="container-fluid">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mx-3">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a href="#" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a href="#" class="nav-link">Products</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a href="#" class="nav-link">Services</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a href="#" class="nav-link">Order</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="body-background"></div>
+
+            <div class="col-8 p-2 pb-3 pt-5 border-end pe-5">
+                <h5 class="fw-bold" style="letter-spacing: 4px;">Sign up for membership benefits</h5>
+                <div class="row ps-5 pe-4">
+                    <p class="mt-2" style="color: #84780c; font-style: italic; text-align: justify;">
+                        Our philisophical are transparency, respect,
+                        formality and responsibility. Our stimulus is your enthusiasm.
+                        Our motto is your satisfation.
+                    </p>
+                    <form action="" class="mt-5 pe-4">
+                        <input class="d-inline w-100 mb-3 border-0 border-bottom" placeholder="Username" type="text"
+                            name="username" id="username" class="mt-3">
+                        <input class="d-inline w-100 mb-3 border-0 border-bottom" placeholder="E-mail" type="text"
+                            name="email" id="email" class="mt-3">
+                        <input class="d-inline w-100 mb-3 border-0 border-bottom" placeholder="Password" type="text"
+                            name="password" id="password" class="mt-3">
+                        <input class="d-inline w-100 mb-3 border-0 border-bottom" placeholder="Retype password"
+                            type="text" name="retype" id="retype" class="mt-3">
+                        <button class="btn text-light mt-4" type="submit" style="background-color: #84780c;">Sign me
+                            up</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-4 ps-4 pt-5">
+                <div class="pt-2 ps-4" style="background-color: #ffecd4; border-radius: 10% 10% 0 0;">
+                    <h5 class="fw-bold" style="color: #4d3c2f; letter-spacing: 4px;">Links</h5>
+                    <ul class="mt-5 ms-2" style="list-style: square; color: #8d4f28;">
+                        <li>Make your Own Tour</li>
+                        <li>Maldives Tours</li>
+                        <li>Nature & Adventure</li>
+                        <li>Readymade Tours</li>
+                        <li>Europe Tours</li>
+                        <li>Rusia Tours</li>
+                    </ul>
+                </div>
+                <div class="pt-2 ps-4">
+                    <h5 class="fw-bold" style="color: #4d3c2f; letter-spacing: 4px;">More info</h5>
+                    <div class="pt-2">
+                        <img class="float-start w-50 img-thumbnail me-2" src="../img/leaf.png" alt="">
+                        <p style="text-align: justify;">
+                            Our purpose is the client who gives to us the opportunites to serve and to make known the
+                            reality arround the world
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer row pt-3">
+            <p class="text-center fw-bold" style="letter-spacing: 4px;">&copy; 2017 Software Engineering Department |
+                Test Date: 16 Sep 2017</p>
+        </div>
+    </div>
+</body>
+
+</html>

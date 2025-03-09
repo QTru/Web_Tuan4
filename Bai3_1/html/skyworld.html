@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sky World</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        * {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .container-lg {
+            background-color: deepskyblue;
+        }
+
+        .navbar {
+            border-bottom: 6px dotted white;
+        }
+
+        .navbar-brand>a {
+            text-shadow: 0 0 2px black, 0 0 10px rgb(0, 0, 128), 0 0 16px rgb(0, 0, 128);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .text-justify {
+            text-align: justify;
+        }
+
+        input,
+        select,
+        textarea {
+            border: 2px solid blue !important
+        }
+
+        button {
+            border: 2px dotted blue !important
+        }
+
+        h1 {
+            color: blue;
+            text-shadow: 4px 4px blue;
+        }
+
+        h4 {
+            color: blue
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-lg text-white fw-bold">
+        <div class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <ul class="navbar-nav mt-2">
+                    <li class="h5 nav-item fw-bold pe-4"><a href=""
+                            class="nav-link text-light text-decoration-none">Home</a>
+                    </li>
+                    <li class="h5 nav-item fw-bold pe-4"><a href=""
+                            class="nav-link text-light text-decoration-none">Products</a>
+                    </li>
+                    <li class="h5 nav-item fw-bold pe-4"><a href=""
+                            class="nav-link text-light text-decoration-none">Services</a>
+                    </li>
+                    <li class="h5 nav-item fw-bold pe-4"><a href=""
+                            class="nav-link text-light text-decoration-none">About</a></li>
+                    <li class="h5 nav-item fw-bold pe-4"><a href=""
+                            class="nav-link text-light text-decoration-none">Contact</a></li>
+                </ul>
+
+                <div class="navbar-brand"><a class="text-decoration-none text-white h3 fw-bold" href="">Sky World</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row py-5 pe-5" style="border-bottom: 6px dotted white;">
+            <div class="col">
+                <h3 class="fw-bold mb-3">Registration information</h3>
+                <p class="text-justify">
+                    Start your travel planning now with our on-line tour regstration
+                    form. Just tell us a little about yourself and your group and one of our travel
+                    experts will contact you to create the perfect custom built for your group's needs.
+                </p>
+                <div class="row ms-5">
+                    <form action="">
+                        <div class="row mb-1">
+                            <div class="col-5">
+                                <label for="title" class="form-label align-self-center">Title</label>
+                            </div>
+                            <div class="col-7">
+                                <select name="title" id="title" class="form-select w-25">
+                                    <option value="Mr">Mr</option>
+                                    <option value="Ms">Ms</option>
+                                    <option value="Mrs">Mrs</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="col-5 d-flex">
+                                <label for="full-name" class="form-label align-self-center">Full Name*</label>
+                            </div>
+                            <div class="col-7">
+                                <input placeholder="First Name" type="text" name="full-name" id="full-name"
+                                    class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="col-5 d-flex">
+                                <label for="mailing-address" class="form-label align-self-center">Mailing
+                                    Address</label>
+                            </div>
+                            <div class="col-7">
+                                <input placeholder="Mailing Address" type="text" name="mailing-address"
+                                    id="mailing-address" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="col-5 d-flex">
+                                <label for="city" class="form-label align-self-center">City</label>
+                            </div>
+                            <div class="col-7">
+                                <input placeholder="City" type="text" name="city" id="city" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="col-5 d-flex">
+                                <label for="country" class="form-label align-self-center">Country</label>
+                            </div>
+                            <div class="col-7">
+                                <input placeholder="Country" type="text" name="country" id="country"
+                                    class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="col-5 d-flex">
+                                <label for="questions" class="form-label align-self-center">Specific questions or
+                                    requests about your
+                                    tour</label>
+                            </div>
+                            <div class="col-7">
+                                <textarea placeholder="Specific questions or requests about your tour"
+                                    class="form-control" name="questions" id="questions" rows="5"></textarea>
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="col-5"></div>
+                            <div class="col-7">
+                                <button type="button" class="d-inline-block btn btn-secondary">Submit</button>
+                                <button type="button" class="d-inline-block btn btn-secondary">Reset</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col">
+                <img class="w-100" src="../img/sky.png" alt="">
+                <div class="ms-5 mt-3">
+                    <h1 class="fw-bold">You've arrived.</h1>
+                    <h4 class="ms-4 fw-bold">Journeys as great as the destinations.</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="row pt-3">
+            <span class="text-center d-block">@2016 Sky World Tours. All rights reserved.</span>
+            <span class="text-center d-block">Contact information: Student Name | StudentID | Testing Date</span>
+        </div>
+    </div>
+</body>
+
+</html>
